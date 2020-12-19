@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/foo/(.*)",
+      "destination": "https://httpbin.org/anything/$1"
+    }
+  ]
+}
